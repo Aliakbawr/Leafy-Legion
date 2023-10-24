@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rou.SignMenu">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gif03.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="112.0" layoutX="21.0" layoutY="486.0" onMouseClicked="#MenuBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button_back.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="540.0" layoutX="540.0" stroke="BLACK" strokeType="INSIDE" width="420.0" />
+      <ImageView fitHeight="68.0" fitWidth="297.0" layoutX="605.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Username_lable.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="NameTXT" alignment="CENTER" layoutX="677.0" layoutY="250.0" prefHeight="39.0" prefWidth="145.0" promptText="Name">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <ImageView fitHeight="47.0" fitWidth="122.0" layoutX="836.0" layoutY="478.0" onMouseClicked="#LogInBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button_log-in.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

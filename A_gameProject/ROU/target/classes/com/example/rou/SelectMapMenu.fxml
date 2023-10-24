@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rou.SelectMapMenuCL">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mapMenu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="232.0" fitWidth="287.0" layoutX="369.0" layoutY="154.0" onMouseClicked="#MapButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gif04.gif" />
+         </image>
+         <effect>
+            <Blend mode="GREEN" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="172.0" layoutX="14.0" layoutY="434.0" onMouseClicked="#MenuBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="446.0" layoutX="259.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button_map-royal-village.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="182.0" layoutX="773.0" layoutY="434.0" onMouseClicked="#MapBTN" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button_start.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="232.0" layoutX="369.0" layoutY="154.0" opacity="0.64" stroke="BLACK" strokeType="INSIDE" width="221.0" />
+   </children>
+</AnchorPane>
